@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="container welcome-container" id="welcomeContainer">
+        <h1 class="title">WELCOME TO SUDOKU SOLVER</h1>
+        <!-- <h2 class="title">CLICK THE "START PLAYING" BUTTON TO BEGIN THE GAME!</h2> -->
+        <button class="btn start-btn" id="startBtn">START PLAYING</button>
+        <img src="images/logo.png" alt="Logo" class="logo">
+    </div>
+    
+    <div class="container game-container" id="gameContainer" style="display: none;">
+        <h1 class="title">SUDOKU SOLVER</h1>
+        <label class="label">ENTER PUZZLE (0 FOR EMPTY CELLS)</label>
+        <div class="board" id="board"></div>
+        <div id="messageBox" class="message-box"></div>
+        <button class="btn" id="generateBtn">GENERATE PUZZLE</button>
+        <button class="btn" id="checkBtn">CHECK SOLUTION</button>
+        <button class="btn" id="solveBtn">SOLVE PUZZLE</button>
+        <button class="btn" id="clearAllBtn">CLEAR ALL</button>
+    </div>
+    
+    <div class="container footer-container" id="footerContainer">
+        <div class="footer-content">
+            <p>Created by GS</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

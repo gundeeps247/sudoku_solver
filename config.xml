@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.codepocker.SudokuSolver"
+    version="1.0.0">
+    <name>Sudoku Solver</name>
+    <description>Sudoku Solver</description>
+    <author>GS</author>
+    <preference name="orientation" value="portrait"/>
+    <icon src="applogo/logoofapp.jpg" density="mdpi"/>
+</widget>
